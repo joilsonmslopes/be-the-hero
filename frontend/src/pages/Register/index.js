@@ -32,7 +32,7 @@ export default function Register() {
 
             alert(`Seu ID de acesso: ${response.data.id}`);
 
-            history.push('/');
+            history.push('/profile');
         } catch (err) {
             alert('Erro no cadastro, tente novamente.');
         }
